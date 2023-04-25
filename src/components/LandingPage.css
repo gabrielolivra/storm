@@ -1,0 +1,120 @@
+.first-component{display:flex;
+justify-content: space-around;
+align-items: center;}
+
+.first-component img{width:450px;}
+
+.title h1{
+    color: white;
+    font-size: 80px;
+    width:700px;
+}
+
+.title h1 span{color: #00ffa8;}
+
+.title p{
+    color: white;
+    font-size:36px;
+    width: 500px;
+}
+.container-buttons{
+    display: flex;
+    align-items: center;
+    margin:30px
+    
+}
+.user-now{
+    color:black;
+    background-color: #00ffa8;
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.join-us{
+    background-color: #121916;
+    color: #00ffa8;
+    border: 2px solid #00ffa8;
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.two-component{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+.two-component img{width:400px;}
+
+.two-component h1{
+    color:white;
+    font-size: 70px;
+    width: 600px;
+}
+
+.two-component p{color:white;
+width: 600px;
+font-size: 24px;}
+
+.two-component h1 span{
+    color: #00ffa8;
+}
+
+.three-component{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    flex-direction: row-reverse;
+}
+
+.three-component img{
+    width: 400px;
+}
+
+.three-component h1{
+    color:white;
+    font-size: 70px;
+    width: 600px;
+}
+
+.three-component h1 span{
+    color: #00ffa8;
+}
+.three-component p{color:white;
+    width: 600px;
+    font-size: 24px;}
+
+.finally-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finally-component img{width: 700px;}
+
+.finally-container{
+    text-align: center;
+}
+
+.finally-container h1{
+    color: white;
+    font-size: 70px;
+}
+
+.finally-container p{color: white;
+font-size: 30px;}
+
+.finally-container button{
+    width: 200px;
+    height: 50px;
+}
