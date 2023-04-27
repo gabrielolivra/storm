@@ -3,7 +3,9 @@ import './LandingPage.css'
 function LandingPage(){
     const img1 ='https://storz.pages.dev/static/media/fragments.e09cc6a00e141b3ce338.gif'
     const img2 ='https://storz.pages.dev/static/media/security.406ba440a0f4c48385bb.gif'
-    const img3 ='https://storz.pages.dev/static/media/map.50cf368f2a647622a854.png'
+    const img3 ='https://storz.pages.dev/static/media/map.50cf368f2a647622a854.png'      
+ 
+
     return(
         
 <div>
@@ -16,7 +18,7 @@ function LandingPage(){
             <button className='join-us'>Join Us</button>
         </div>
         </div>  
-        <img src={img1} alt="" />
+        <img src={img1} alt=""/>
     </section> 
     <section className='two-component'>
         <img src={img2} alt="" />
@@ -46,5 +48,7 @@ function LandingPage(){
 </div>
     )
 }
+
+
 
 export default LandingPage

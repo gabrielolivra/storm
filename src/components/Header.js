@@ -1,6 +1,9 @@
-import './Header.css'
+
+import './Header.css';
+
 function Header(){
     return(
+        
         <div>
         <header>
           <ul>
@@ -9,6 +12,7 @@ function Header(){
           </ul>
         </header>
         </div>
+       
     )
 }
 

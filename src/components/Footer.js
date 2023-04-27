@@ -1,5 +1,6 @@
 import './Footer.css'
 import {FaGithub } from 'react-icons/fa'
+const url ='https://www.github.com/gabrielolivra'
 function Footer(){
     return(
         <div>
@@ -7,7 +8,7 @@ function Footer(){
                 <ul>
                     <li>Storm</li>
                     <li>Storm 2023</li>
-                    <li><FaGithub/></li>
+                    <a href={url}><li><FaGithub/></li></a>
                 </ul>
             </nav>
         </div>
