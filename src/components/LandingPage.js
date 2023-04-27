@@ -24,7 +24,7 @@ function LandingPage(){
         <img src={img2} alt="" />
         <div className='two-container'>
             <h1><span>Privacy</span> First. Completely <span>Secured.</span></h1>
-            <p>Storz uses AES-256 bit password encryption to protect your data from hackers and malicious agents. Storz will keep your data safe behind trillions of lock combinations.</p>
+            <p>Storm uses AES-256 bit password encryption to protect your data from hackers and malicious agents. Storm will keep your data safe behind trillions of lock combinations.</p>
 
         </div>
     </section>
