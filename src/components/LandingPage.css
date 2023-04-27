@@ -149,11 +149,12 @@ font-size: 30px;}
         align-items: center;
         flex-wrap: wrap;
     text-align: center;
-height: 700px;}
+height: 700px;
+}
            
 .title h1{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     width:80%;
     
 }
@@ -162,7 +163,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;}
 .title p{width: 90%;
-font-size: 20px;}
+font-size: 24px;}
 
 .first-component img{display: none;}
 
