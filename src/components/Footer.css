@@ -3,7 +3,12 @@
 }
 .footer-landing-page ul li{font-size: 18px;
 font-weight: 200;}
-
+.footer-landing-page ul a li:hover{
+   
+    transition: 0.8s ease;
+    -webkit-filter: drop-shadow(1px 1px 20px  #00a36d);
+        filter: drop-shadow(1px 1px 2px  #00a36d);
+}
 @media only screen and (max-width:700px){
     .footer-landing-page ul{display: flex;
     justify-content: space-between;
